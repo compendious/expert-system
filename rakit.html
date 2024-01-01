@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CPU Selector</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="cpu-selector">
+        <div class="w3-margin-top">
+          <h1><b> CPU Selector</b></h1>
+          <label for="category"><h3> Category:</h3></label>
+          <select
+            id="category"
+            onchange="updateCpuList()"
+            class="w3-select w3-border"
+          >
+            <!-- Dropdown cpu category menggnakan javaScript -->
+          </select>
+
+          <label for="cpu"><h3>Select CPU Model:</h3></label>
+          <select id="cpu" class="w3-select w3-border">
+            <!-- Dropdown cpu model menggunakan javaScript -->
+          </select>
+
+          <button
+            onclick="findMatchingHardware()"
+            class="w3-button w3-black w3-margin-top w3-margin-bottom"
+          >
+            Find Matching Hardware
+          </button>
+        </div>
+      </div>
+      <div id="result">
+        <!-- hasil akan ditampilkan disini dari javascript -->
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
