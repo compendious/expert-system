@@ -45,7 +45,7 @@ function createProductSlides(products) {
           <p>L3 Cache: ${product.l3} MB</p>
           <p>TDP: ${product.tdp} W</p>
           <p>Release Date: ${product["release-date"]}</p>
-          <p>MSRP: ${product.msrp}</p>
+          <p>MSRP: Rp ${product.msrp}</p>
         `;
 
         // Penggabungan bagian image dan details pada products slider
