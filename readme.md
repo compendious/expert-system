@@ -25,5 +25,6 @@ Welcome to the AMD Ryzen PC Builder, an expert system to help you build your ide
 
 1. Clone the repository:
    ```bash
+   cd [YourDirectoryName]
    git clone https://github.com/compendious/compendious.github.io.git
    
