@@ -15,7 +15,7 @@ Welcome to the AMD Ryzen PC Builder, an expert system to help you build your ide
 
 ## How to Use
 
-1. Visit our website: https://compendious.github.io
+1. Visit our website: 
 
 ## Development
 
